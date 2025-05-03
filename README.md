@@ -1,12 +1,24 @@
-# React + Vite
+# E-Commerce Mateando
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto final para el curso de React. Tienda online SPA construida con Vite y React, usando Firebase como backend.
 
-Currently, two official plugins are available:
+## Tecnologías
+- React
+- React Router
+- Context API
+- Firebase (Firestore)
+- Bootstrap
+- CSS personalizado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+- Listado dinámico de productos desde Firebase
+- Detalle de producto
+- Carrito de compras con Context
+- Formulario de checkout
+- Generación de órdenes en Firestore
+- Estilo personalizado (negro/dorado)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+```bash
+npm install
+npm run dev
